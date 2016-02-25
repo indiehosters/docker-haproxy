@@ -1,4 +1,4 @@
 # docker-haproxy
-HAproxy container for HAproxy service
+HAProxy images for HAproxy service
 
-Check [haproxy](https://github.com/indiehosters/haproxy) service to see how to use it.
+Check [HAProxy](https://github.com/indiehosters/haproxy) service to see how to use it.
