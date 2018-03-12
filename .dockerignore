@@ -1,0 +1,12 @@
+# FROM: https://raw.githubusercontent.com/linuxserver/new-project-templates/master/docker/.dockerignore
+
+data/
+.env
+.git
+.gitignore
+.github
+.gitattributes
+.secret
+READMETEMPLATE.md
+README.md
+run

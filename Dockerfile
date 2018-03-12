@@ -1,12 +1,10 @@
-FROM haproxy
+FROM haproxy:alpine
 
-RUN apt-get update && apt-get install -y \
-      inotify-tools \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists/* \
-      /tmp/* \
-      /var/tmp/*
+RUN apk add --no-cache \
+	bash \
+	inotify-tools
 
 COPY docker-entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT [ "/entrypoint.sh" ]
+

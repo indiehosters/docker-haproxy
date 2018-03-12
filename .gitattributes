@@ -1,0 +1,25 @@
+# FROM: https://raw.githubusercontent.com/linuxserver/new-project-templates/master/docker/.gitattributes
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs   diff=csharp
+
+# Standard to msysgit
+*.doc  diff=astextplain
+*.DOC  diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF  diff=astextplain
+*.rtf  diff=astextplain
+*.RTF  diff=astextplain
+
+# FROM: https://raw.githubusercontent.com/ansible/ansible/devel/.gitattributes
+CHANGELOG.md merge=union
+.github/ export-ignore
+hacking/ export-ignore
+ticket-stubs/ export-ignore
